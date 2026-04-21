@@ -1,9 +1,0 @@
-﻿  Building 'MyDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
-  MyDriver.vcxproj -> D:\Program\工程\C++\Driver\MyDriver\x64\Debug\MyDriver.sys
-  Done Adding Additional Store
-  Successfully signed: D:\Program\\C++\Driver\MyDriver\x64\Debug\MyDriver.sys
-  
-  DrvCat task was skipped as there was no catalog file to process
-  
-  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
-  或批处理文件。
