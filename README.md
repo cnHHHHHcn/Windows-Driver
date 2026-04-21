@@ -15,7 +15,10 @@
 辅助调试工具集。
 - **Sysinternals Suite**：收录了 DebugView、Process Monitor 等驱动调试必备工具，方便查看内核日志和系统行为。
 - **其他工具**：包含驱动加载、测试相关的辅助脚本或工具。
-
+##### 注：RDCMan (Remote Desktop Connection Manager)
+远程桌面管理工具，用于管理多台测试虚拟机。
+- **文件说明**：`RDCMan-x96` 为分卷压缩包。
+- **包含内容**：解压后包含 `RDCMan.exe` (主程序) 和 `RDCMan-x64.exe` (64位版本)。
 ---
 
 ## ⚠️ 免责声明
