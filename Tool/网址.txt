@@ -1,0 +1,14 @@
+https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/      windbg
+https://learn.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk     wdksetup
+https://developer.microsoft.com/zh-cn/windows/downloads/windows-sdk/     winsdksetup
+
+Sysinternals 官方下载方式
+
+1. 官方网站下载（推荐）
+
+· 官网地址: https://docs.microsoft.com/zh-cn/sysinternals/
+· 直接下载链接: https://live.sysinternals.com/
+
+https://git-scm.com/
+
+https://learn.microsoft.com/zh-cn/sysinternals/downloads/
