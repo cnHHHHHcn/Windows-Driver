@@ -1,0 +1,2 @@
+D:\Program\工程\C++\MyDriver\x64\Debug\MyDriver.sys
+D:\Program\工程\C++\Driver\MyDriver\x64\Debug\MyDriver.sys
