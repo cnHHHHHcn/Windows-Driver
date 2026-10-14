@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37710.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IRP_Dispatch_Workflow_KernelMode", "IRP_Dispatch_Workflow_KernelMode.vcxproj", "{82932642-91E8-428F-034C-90D20693E1AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82932642-91E8-428F-034C-90D20693E1AD}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{82932642-91E8-428F-034C-90D20693E1AD}.Debug|ARM64.Build.0 = Debug|ARM64
+		{82932642-91E8-428F-034C-90D20693E1AD}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{82932642-91E8-428F-034C-90D20693E1AD}.Debug|x64.ActiveCfg = Debug|x64
+		{82932642-91E8-428F-034C-90D20693E1AD}.Debug|x64.Build.0 = Debug|x64
+		{82932642-91E8-428F-034C-90D20693E1AD}.Debug|x64.Deploy.0 = Debug|x64
+		{82932642-91E8-428F-034C-90D20693E1AD}.Release|ARM64.ActiveCfg = Release|ARM64
+		{82932642-91E8-428F-034C-90D20693E1AD}.Release|ARM64.Build.0 = Release|ARM64
+		{82932642-91E8-428F-034C-90D20693E1AD}.Release|ARM64.Deploy.0 = Release|ARM64
+		{82932642-91E8-428F-034C-90D20693E1AD}.Release|x64.ActiveCfg = Release|x64
+		{82932642-91E8-428F-034C-90D20693E1AD}.Release|x64.Build.0 = Release|x64
+		{82932642-91E8-428F-034C-90D20693E1AD}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C247B202-EF66-46BF-B5C6-D40FA928DE44}
+	EndGlobalSection
+EndGlobal
