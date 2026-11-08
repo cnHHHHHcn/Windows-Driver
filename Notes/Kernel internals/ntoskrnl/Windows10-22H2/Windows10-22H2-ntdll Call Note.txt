@@ -1,0 +1,23 @@
+.text:000000018009DAF0 ; =============== S U B R O U T I N E =======================================
+.text:000000018009DAF0
+.text:000000018009DAF0
+.text:000000018009DAF0                 public ZwCreateFile
+.text:000000018009DAF0 ZwCreateFile    proc near               ; CODE XREF: RtlpFileIsWin32WithRCManifest+E3↑p
+.text:000000018009DAF0                                         ; EtwpCreateFile+107↑p ...
+.text:000000018009DAF0                 mov     r10, rcx        ; NtCreateFile
+.text:000000018009DAF3                 mov     eax, 55h ; 'U'
+.text:000000018009DAF8                 test    byte ptr ds:7FFE0308h, 1
+.text:000000018009DB00                 jnz     short loc_18009DB05
+.text:000000018009DB02                 syscall                 ; Low latency system call
+.text:000000018009DB04                 retn
+.text:000000018009DB05 ; ---------------------------------------------------------------------------
+.text:000000018009DB05
+.text:000000018009DB05 loc_18009DB05:                          ; CODE XREF: ZwCreateFile+10↑j
+.text:000000018009DB05                 int     2Eh             ; DOS 2+ internal - EXECUTE COMMAND
+.text:000000018009DB05                                         ; DS:SI -> counted CR-terminated command string
+.text:000000018009DB07                 retn
+.text:000000018009DB07 ZwCreateFile    endp
+
+Note: 
+r10 -> 返回地址
+eax -> 系统调用号
